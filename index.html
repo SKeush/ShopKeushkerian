@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="./css/style.css">
     <title>Shop Online</title>
 </head>
@@ -24,10 +26,10 @@
     <main>
         <section>
             <div>
-                <h1 class="h1">Tus compras online más fáciles que nunca</h1>
+                <h1 class="WOW h1 animate__animated animate__shakeY">Tus compras online más fáciles que nunca</h1>
             </div>
             <div class="section__one">
-                <img src="./img/compras.png" alt="foto chicas de compras">
+                <img src="./img/compras.png" alt="foto chicas de compras" class="WOW animate__animated animate__flipInY">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad earum in pariatur voluptate nisi omnis
                     odit et tempora alias eius eligendi corporis cupiditate maxime debitis rerum, consectetur laborum.
                     Asperiores, pariatur!
@@ -58,6 +60,10 @@
 
     <footer>SHOP ONLINE &reg;</footer>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   
 </body>
 

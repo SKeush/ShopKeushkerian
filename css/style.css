@@ -76,3 +76,16 @@ footer {
   text-align: center;
   text-decoration: underline;
 }
+
+.section__one img:hover{
+    animation-iteration-count: infinite;
+  }
+  
+  .section__one p:hover{
+    background: linear-gradient(to right, #5f0a87,#a4508b);
+  }
+  
+  .section__two:hover{
+    background: radial-gradient(circle, #20bf55,#01baef);
+  }
+  
